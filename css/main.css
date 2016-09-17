@@ -1,0 +1,75 @@
+body {
+  /*background-color:#fff4ef*/
+  /*background-color:#FFF4D3*/
+  /*background-color:#D4ECFF*/
+}
+
+div.centeredIndex {
+  width:1100px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top:-2px
+}
+
+div.centered {
+  width:830px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top:-2px
+}
+
+img.kymsmith {
+  top:30px;
+  /*left:491px*/
+  left:586px
+}
+
+img.comingSoon {
+   top:555px;
+   left:423px
+}
+
+img.entersite {
+   top:555px;
+   /*left:428px*/
+   left:523px
+}
+
+img.bg {
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:-1
+}
+
+img.news {
+  left:450px;
+  top:130px;
+}
+
+img.bio {
+  left:510px;
+  top:130px;
+}
+
+img.music {
+  left:560px;
+  top:130px;
+}
+
+img.photos {
+  left:622px;
+  top:130px;
+}
+
+img.contact {
+  left:689px;
+  top:130px;
+}
+
+img.button {
+  position:absolute;
+  z-index:1
+}

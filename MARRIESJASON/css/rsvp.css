@@ -1,0 +1,109 @@
+/**
+ *     Page-specific banner
+ */
+div.topBanner
+{
+    height:                 937px;
+    background-image:       url("../img/kymCasa.jpg");
+}
+
+/**
+ *     Content styling
+ */
+.rsvpContainer
+{
+    min-height:             700px;
+}
+.formDesc
+{
+    font-family:            'Josefin Sans Thin';
+    font-size:              25px;
+    line-height:            32px;
+}
+.formDesc.fontReg
+{
+    font-family:            'Josefin Sans';
+}
+.radioRow
+{
+    margin-bottom:          30px;
+}
+select
+{
+    cursor:                 pointer;
+    background:             #FFFFFF;
+}
+select option
+{
+    margin-top:             5px;
+    margin-bottom:          5px;
+}
+input, textarea, select
+{
+    border-radius:          8px;
+}
+input:focus, textarea:focus, select:focus
+{
+    outline:                0;
+}
+input[type=text], textarea, select
+{
+    font-size:              25px;
+    line-height:            25px;
+    padding:                15px 10px;
+
+    color:                  #666666;
+    border:                 1px solid #AAAAAA;
+}
+textarea
+{
+    width:                  100%;
+    height:                 200px;
+    overflow:               auto;
+}
+input[type=submit]
+{
+    transition:             all 0.5s ease;
+    font-size:              20px;
+    line-height:            25px;
+    padding:                10px 40px 5px 40px;
+
+    /*font-family:            "Lobster";*/
+    text-transform:         uppercase;
+    letter-spacing:         2px;
+    color:                  #444444;
+    background:             #DDDDDD;
+    border:                 0;
+}
+input[type=submit]:hover
+{
+    background:             #999999;
+    color:                  #FFFFFF;
+}
+.radioSet label
+{
+    font-size:              18px;
+}
+select#firstNameEntry
+{
+    width:                  50%;
+}
+
+form#guestForm .errText
+{
+    margin-top:             5px;
+}
+
+/*** jQuery UI ***/
+.ui-state-default
+{
+    background:             #E2E2E2;
+}
+.ui-state-active
+{
+    background:             #FFFFFF;
+}
+.ui-widget
+{
+    font-family:            'Josefin Sans';
+}
