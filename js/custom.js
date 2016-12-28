@@ -1,27 +1,8 @@
-//to do: finish sizing images and adjust locations/naming so that they make sense
-// look into breaking the page into chunks instead of having multiple different html pages
-// TODO: move data into an object or something rather than replacing all of this html
-// TODO: 
-
-
-/*                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item"> 
-                  <div class="box-masonry"><a href="#" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/bullseye.jpg" alt="" class="img-responsive"></a>
-                    <div class="box-masonry-hover-text-header"> 
-                      <h4> <a href="#">Bullseye</a></h4>
-                      <div class="box-masonry-desription">
-                        <p>Four-tier pistachio lemon wedding cake, based on the recipe from Momofuku Milk Bar</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                */
-
 $(function() {
   var model = {
     heading: "Kym Smith",
     tag: "My personal portfolio.",
-    copyright: "&copy;2016 Kym Smith",
+    copyright: "&copy;2017 Kym Smith",
     social: [
       { 
         type: "facebook",
@@ -85,9 +66,9 @@ $(function() {
       for (var i=0; i < model.social.length; i++) {
         if (!model.social[i].music) {
           if (model.social[i].type=="email") {
-            socialContent += "<a href='" + model.social[i].url + "' data-animate-hover='pulse' class='" + model.social[i].type + "'><i class='fa fa-envelope'></i></a>";
+            socialContent += "<a href='" + model.social[i].url + "' target='_blank' data-animate-hover='pulse' class='" + model.social[i].type + "'><i class='fa fa-envelope'></i></a>";
           } else {
-            socialContent += "<a href='" + model.social[i].url + "' data-animate-hover='pulse' class='external " + model.social[i].type + "'><i class='fa fa-" + model.social[i].type + "'></i></a>";
+            socialContent += "<a href='" + model.social[i].url + "' target='_blank' data-animate-hover='pulse' class='external " + model.social[i].type + "'><i class='fa fa-" + model.social[i].type + "'></i></a>";
           }
         }
       }
@@ -97,7 +78,7 @@ $(function() {
       var socialMusicContent = "";
       for (var i=0; i < model.social.length; i++) {
         if (model.social[i].music) {
-          socialMusicContent += "<a href='" + model.social[i].url + "' data-animate-hover='pulse' class='external " + model.social[i].type + "'><i class='fa fa-" + model.social[i].type + "'></i></a>";
+          socialMusicContent += "<a href='" + model.social[i].url + "' target='_blank' data-animate-hover='pulse' class='external " + model.social[i].type + "'><i class='fa fa-" + model.social[i].type + "'></i></a>";
         }
       }
       return socialMusicContent;
