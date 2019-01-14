@@ -2,7 +2,7 @@ $(function() {
   var model = {
     heading: "Kym Smith",
     tag: "My personal portfolio.",
-    copyright: "&copy;2017 Kym Smith",
+    copyright: "&copy;2019 Kym Smith",
     social: [
       { 
         type: "facebook",
@@ -14,7 +14,7 @@ $(function() {
       },
       {
         type: "instagram",
-        url: "https://www.instagram.com/kymsmithmusic/"
+        url: "https://www.instagram.com/_kymsmith_/"
       },
       {
         type: "email",
